@@ -25,7 +25,7 @@ export default function Counter() {
       <br />
       <button onClick={() => dispatch(incrementMultiplier(multiplier))}>
         add
-      </button>{' '}
+      </button>
       &nbsp;
       <button onClick={() => dispatch(decrementMultiplier(multiplier))}>
         remove
